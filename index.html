@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alzy</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css//style.css">
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <i class="fas fa-code"></i>
+                Alzy
+            </a>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Backend Developer & Minecraft Plugin & Discord Bot Creator</h1>
+            <p>Building robust server-side solutions and innovative Minecraft plugins for thriving gaming communities</p>
+            <a href="#projects" class="cta-button">
+                <i class="fas fa-rocket"></i>
+                Explore My Work
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="fade-in">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>
+                    I'm a passionate Backend Developer with over 5 years of experience in creating robust, scalable server-side solutions. 
+                    My main specialization lies in developing Minecraft plugins and Discord bots that have served thousands of active users.
+                </p>
+                <p>
+                    I focus on writing clean, efficient, and well-documented code using industry best practices. 
+                    Every project I create is designed to be easily maintainable and scalable over time.
+                </p>
+                <p>
+                    When I'm not coding, I love exploring new backend technologies, contributing to open source projects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="fade-in">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3>Java Development</h3>
+                    <p>Advanced command line intefrace development with Java, and microservices architecture for simple applications.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3>Node.js & APIs</h3>
+                    <p>Building performant REST and with Node.js, Express, and modern database integration such as MongoDB, PostegreSQL.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Minecraft Plugins</h3>
+                    <p>Custom Minecraft plugin development for Spigot/Paper with focus on performance and user experience.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <h3>Discord Bots</h3>
+                    <p>Advanced Discord bots with Discord.js, database management, and external API integrations.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Design</h3>
+                    <p>Database design and optimization for MySQL, PostgreSQL, and MongoDB in scalable applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="fade-in">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h3>SimpleEconomy</h3>
+                    </div>
+                    <p>
+                        Complete Minecraft plugin for server economy management. Features secure transactions, advanced permissions.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Alzyy/SimpleEconomy" class="project-link">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                        <a href="https://www.spigotmc.org/resources/simpleeconomy.127423/" class="project-link">
+                            <i class="fas fa-cube"></i>
+                            SpigotMC
+                        </a>
+                        <a href="https://github.com/Alzyy/SimpleEconomy" class="project-link">
+                            <i class="fas fa-book"></i>
+                            Documentation
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3>SimpleHomes</h3>
+                    </div>
+                    <p>
+                        Home management system for Minecraft servers. Features intuitive GUI, 
+                        advanced permissions, and flexible data storage.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Alzyy/SimpleHomes" class="project-link">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                        <a href="https://www.spigotmc.org/resources/simplehomes.127559/" class="project-link">
+                            <i class="fas fa-cube"></i>
+                            SpigotMC
+                        </a>
+                        <a href="https://github.com/Alzyy/SimpleHomes" class="project-link">
+                            <i class="fas fa-book"></i>
+                            Documentation
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/Alzyy" class="social-link" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link" title="Discord">
+                    <i class="fab fa-discord"></i>
+                </a>
+                <a href="https://www.spigotmc.org/members/alzyit.1581572/" class="social-link" title="SpigotMC">
+                    <i class="fas fa-cube"></i>
+                </a>
+            </div>
+            <p>&copy; 2025 Alzy - Made with ❤</p>
+            <p style="margin-top: 0.5rem; opacity: 0.8;">Building the future of gaming, one plugin at a time</p>
+        </div>
+    </footer>
+</body>
+<script src="./js/index.js"></script>
+</html>
